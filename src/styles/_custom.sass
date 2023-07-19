@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 26%
+    right: 68%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 0%
     right: 30%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: -2%
+    right: -2%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 66%
+    right: -9%
 
 
 @keyframes float1
@@ -17,3 +27,76 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal
+  .banner-principal__row
+    min-height: 505px
+  .banner-principal__img
+    padding-bottom: 0 !important
+    padding-right: 0 !important
+    margin: auto
+    margin-bottom: 3rem
+    img
+      max-width: 427px
+      margin-left: auto
+.container-100
+  margin-left: -3rem
+  margin-right: -3rem
+  padding-right: 3rem
+  padding-left: 3rem
+  
+.tarjeta-introduccion
+  width: 100%
+  padding: 1.25rem
+  border: 4px solid white
+  box-shadow: 0 0 4px 4px #00000010
+  border-radius: 10px
+  img
+    margin-right: auto
+    margin-left: auto
+    margin-bottom: 1.25rem
+  
+.tabs-a
+  .tabs-a__tab
+    background-color: #E8E8E8
+  .tabs-a__tab__selected
+    color: white !important
+.bloque-texto-g
+  .bloque-texto-g__texto
+    width: 80%
+  @media (max-width: 991px)
+    padding: 1rem !important
+    display: flex
+    flex-wrap: wrap
+    .bloque-texto-g__img
+      display: none
+    .bloque-texto-g__texto
+      width: 100%
+
+.slyder-f-edit
+  .slyder-f__btn
+    border-radius: 50%
+    padding: 1rem
+    background-color: #FE7062
+    margin: auto
+    max-width: 56px
+    max-height: 56px
+    i
+      font-size: 30px
+      text-align: center
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      padding: 1rem
+      .slyder-f__slyde
+        display: flex
+  @media (max-width: 991px)
+    .slyder-f__btn
+      max-width: 40px
+      max-height: 40px
+      i
+        font-size: 16px
+.linea-tiempo-d
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #F2F6FE
+
