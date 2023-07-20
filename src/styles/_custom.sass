@@ -63,13 +63,8 @@
     color: white !important
 .bloque-texto-g
   .bloque-texto-g__texto
-    width: 80%
+    width: 60%
   @media (max-width: 991px)
-    padding: 1rem !important
-    display: flex
-    flex-wrap: wrap
-    .bloque-texto-g__img
-      display: none
     .bloque-texto-g__texto
       width: 100%
 
@@ -99,4 +94,31 @@
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
       background-color: #F2F6FE
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+  max-width: 295px
+  margin-right: auto
+  margin-left: auto
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    width: 100%
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1)
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
