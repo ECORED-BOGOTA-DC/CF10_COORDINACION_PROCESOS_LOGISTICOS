@@ -160,10 +160,66 @@
                   li.pb-2.mb-2
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Implementación de sistemas de alarma que estén conectados con las autoridades.
-            tr.d-flex(style="background-color: #F9FBFF")
-              td.col-12.py-4(colspan="2")
-                .tarjeta-introduccion.mx-auto(style="background-color: #18F518; max-width: 495px")
-                  p.fw-bold.text-center.mb-0 Estilo de tabla de muestra, sacar la info del documento
+            tr.d-flex.col-12
+              td.col-4.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Robo de personas internas.
+              td.col-8
+                ul
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Realizar un estudio de seguridad al momento de la contratación, asegurando que todas sus referencias y certificaciones sean verdaderas y no tenga anotaciones judiciales.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Cámaras de video en las áreas de almacenamiento o áreas críticas.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Supervisión.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Constantes auditorías para el control de inventarios.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Crear dentro de los programas de bienestar actividades sentido de pertenencia y concientización.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Separación de tareas para que todo un proceso no dependa de la misma persona, ejemplo venta de la mercancía con el registro de la factura.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Rotación del personal de los lugares de trabajo, por ejemplo, cambio de almacén comercial.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Colocar avisos donde se solicite a los clientes que exijan su factura.
+            tr.d-flex.col-12
+              td.col-4.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Vencimiento de productos perecederos.
+              td.col-8
+                ul
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Implementar <em>software</em> que permita detectar la mercancía próxima a vencer.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Tener organizada la mercancía de tal forma que los productos próximos a vencer sean los que primero tengan salida.
+            tr.d-flex.col-12
+              td.col-4.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Errores administrativos.
+              td.col-8
+                ul
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Tener definidas y socializadas las políticas de gestión de inventarios.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Tener definidas y socializadas las políticas de gestión de inventarios.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Implementar el uso de herramientas tecnológicas que disminuyan las operaciones manuales y, por ende, el riesgo a los errores, como lectores de códigos de barra.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Implementar <em>software</em> que permita tener información actualizada de los inventarios, además permitirán detectar actividades fraudulentas a tiempo.
+                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
+                    | Capacitar frecuentemente al personal en la gestión de inventarios y el uso de herramientas tecnológicas.
       
     .d-flex.flex-wrap.align-items-start.position-relative
       img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 295px;" data-aos="fade-right")
@@ -343,10 +399,27 @@
               td.col-5
                 p.w-100 <b>Rotación de inventarios</b> = Ventas totales / stock promedio.
                 p.w-100.mb-0 <b>Stock promedio</b> = stock inicial + stock final / 2
-            tr.d-flex(style="background-color: #F9FBFF")
-              td.col-12.py-4(colspan="2")
-                .tarjeta-introduccion.mx-auto(style="background-color: #18F518; max-width: 495px")
-                  p.fw-bold.text-center.mb-0 Estilo de tabla de muestra, sacar la info del documento
+            tr.d-flex.col-12
+              td.col-2.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Pérdidas.
+              td.col-5
+                p.w-100.mb-0 Es el indicador que más preocupa a la alta dirección de la organización ya que pueden ser muy costosas para la empresa. Estas pérdidas se pueden dar por exceso de existencias, robo, vencimientos.
+              td.col-5
+                p.w-100 Pérdidas = inventario total - ventas totales - inventario actual.
+            tr.d-flex.col-12
+              td.col-2.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Tasa de retorno.
+              td.col-5
+                p.w-100.mb-0 Mide el porcentaje de devoluciones que tiene la empresa de los productos que ya fueron vendidos; este indicador permite determinar cuáles y cuántas referencias no están cumpliendo con las expectativas de los clientes.
+              td.col-5
+                p.w-100 Tasa de retorno = (total de productos devueltos / total de productos vendidos) * 100.
+            tr.d-flex.col-12
+              td.col-2.d-flex.align-items-center
+                p.w-100.mb-0.fw-bold.text-center Pedidos entregados a tiempo.
+              td.col-5
+                p.w-100.mb-0 Mide el nivel de cumplimiento en la entrega de los pedidos a los clientes.
+              td.col-5
+                p.w-100 %pedidos entregado a tiempo = (# pedidos entregados a tiempo en un periodo X / # total de pedidos entregados en un periodo X) * 100.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
