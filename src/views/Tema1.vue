@@ -20,10 +20,10 @@
       h2#t_1_1 1.1 Importancia del control de inventarios
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
-      img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 295px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-2.svg" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.col-xl-9.ps-md-4
         .cajon.color-acento-contenido.p-4.mb-4(data-aos="fade-left")
-          p.mb-0 El control de los inventarios es uno de los temas más importantes en los que se enfoca la alta dirección ya que los problemas frecuentes a los que se enfrentan son varios como el que expresa Vidal (2018) “tenemos bastantes productos de las referencias que menos rotan, o estamos incumpliendo a nuestros clientes en las entregas porque no hay las materias primas o insumos que se requieren en producción para la elaboración del producto”. Esta situación se puede presentar en cualquier tipo de empresa: comercial, de producción o de servicios; y en diferentes etapas del proceso: materias primas, insumos, productos en proceso o productos terminados, es por esto que se vuelve tan importante mantener las existencias que se requieren para el desarrollo de la operación, ya que existen fluctuaciones de la demanda y en los tiempos de reposición, a este fenómeno se le conoce como lead times.
+          p.mb-0 El control de los inventarios es uno de los temas más importantes en los que se enfoca la alta dirección, ya que los problemas frecuentes a los que se enfrentan son varios como el que expresa Vidal (2018) “tenemos bastantes productos de las referencias que menos rotan, o estamos incumpliendo a nuestros clientes en las entregas porque no hay las materias primas o insumos que se requieren en producción para la elaboración del producto”. Esta situación se puede presentar en cualquier tipo de empresa: comercial, de producción o de servicios; y en diferentes etapas del proceso: materias primas, insumos, productos en proceso o productos terminados, es por esto que se vuelve tan importante mantener las existencias que se requieren para el desarrollo de la operación, ya que existen fluctuaciones de la demanda y en los tiempos de reposición, a este fenómeno se le conoce como <em>lead times</em>.
 
     p.fw-bold.mb-5.mx-auto.text-center(style="max-width: 726px" data-aos="fade-right") La alta dirección debe velar que estos posibles inconvenientes no se presenten diseñando e implementando estrategias que permitan el control adecuado de las existencias:
 
@@ -35,51 +35,36 @@
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-1.svg' style="max-width: 146px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-1.svg' style="max-width: 146px" alt="Imagen decorativa")
           p.text-center Tener con exactitud el <em>lead times</em> o tiempos de reposición y sus posibles cambios.
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-2.svg' style="max-width: 146px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-2.svg' style="max-width: 146px" alt="Imagen decorativa")
           p.text-center Establecer una cadena de abastecimiento con soluciones ágiles que trabaje de manera constante a bajos costos.
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-3.svg' style="max-width: 146px")
-          p.text-center Definir los puntos críticos dentro de la cadena de abastecimiento donde se deben mantener existencias y en qué cantidades.
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-3.svg' style="max-width: 146px" alt="Imagen decorativa")
+          p.text-center Definir los puntos críticos dentro de la cadena de abastecimiento, donde se deben mantener existencias y en qué cantidades.
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-4.svg' style="max-width: 146px")
-          p.text-center Tener con exactitud el <em>lead times</em> o tiempos de reposición y sus posibles cambios.
-        .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
-          .row.justify-content-center.mb-3
-            .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-5.svg' style="max-width: 146px")
-          p.text-center Establecer una cadena de abastecimiento con soluciones ágiles que trabaje de manera constante a bajos costos.
-        .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
-          .row.justify-content-center.mb-3
-            .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-6.svg' style="max-width: 146px")
-          p.text-center Definir los puntos críticos dentro de la cadena de abastecimiento donde se deben mantener existencias y en qué cantidades.
-        .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
-          .row.justify-content-center.mb-3
-            .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-7.svg' style="max-width: 146px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-7.svg' style="max-width: 146px" alt="Imagen decorativa")
           p.text-center Establecer tiempos de duración de cada uno de los procesos en toda la cadena de abastecimiento y, por tanto, tiempos de entrega a los clientes.
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-8.svg' style="max-width: 146px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-8.svg' style="max-width: 146px" alt="Imagen decorativa")
           p.text-center Identificar las áreas donde hay mayor flujo de entrada y salida de material.
         .p-4(style="box-shadow: 0 0 3px 4px #00000010; background-color: white")
           .row.justify-content-center.mb-3
             .col-8
-              img.mx-auto(src='@/assets/curso/temas/tema1/sf-9.svg' style="max-width: 146px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/sf-9.svg' style="max-width: 146px" alt="Imagen decorativa")
           p.text-center Conocer muy bien a sus proveedores.
 
     .d-flex.flex-wrap.mb-5
-      img.col-md-5.col-lg-4.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-3.png" style="max-width: 400px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-3.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
         p Los inventarios tienen gran importancia en las organizaciones, pues de ellos dependen en gran medida el éxito financiero en las empresas; y a continuación se muestran algunos elementos que marcan el porqué:
         ul.lista-ul--separador
@@ -97,11 +82,11 @@
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los inventarios representan un activo importante y es por ello que tener una correcta administración y control de las existencias impactara de forma positiva los resultados financieros de una empresa.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 169px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 169px;" data-aos="fade-left" alt="Imagen decorativa")
     Separador
 
     .titulo-segundo.color-acento-botones
@@ -132,15 +117,15 @@
           p.mb-0 El control debe enfocarse principalmente a las actividades más representativas, afín de reducir costos y tiempo.
     p.mb-5(data-aos="fade-right") La administración de inventarios se basa en políticas que permitan decidir cuándo y cuánto se debe reabastecer para mantener el material disponible, además, se debe contar con información precisa de las existencias disponibles en bodega, la cantidad de producto que está pendiente por llegar o en tránsito, para esto requiere de información precisa para tomar buenas decisiones, la cual se centra en cuatro aspectos básicos:
 
-    img.mx-auto.mb-5.col-lg-10.col-xl-8(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 811px;" data-aos="fade-left")
+    img.mx-auto.mb-5.col-lg-10.col-xl-8(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 811px;" data-aos="fade-left" alt="Imagen que indica los cuatro pilares en la administración de inventarios que son: 1. Cantidad de productos en producción. 2. Tiempo de producción y reabastecimiento. 3. Artículos con mayor demanda o que impliquen mayor tiempo de reabastecimiento. 4. Variaciones en los costos de los artículos por inventario.")
 
     p.mb-5(data-aos="fade-right") Para tener una correcta gestión de los inventarios se deben analizar las principales variables que afectan su operación como lo son sus entradas y salidas, y los procesos que pueden presentar múltiples desviaciones que requieren ser tenidas en cuenta para su control conforme se muestra en la figura 1.
 
     .mx-auto.col-lg-10.col-xl-8
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 1
-        span.d-block Mapa conceptual de nomenclatura
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 823px;" data-aos="fade-left")
+        span.d-block Control inventarios
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 823px;" data-aos="fade-left" alt="Figura 1. Muestra el mapa conceptual de nomenclatura que contiene: Entradas como la recepción de compras, la devolución de clientes y la recepción de traslados luego viene el almacén y luego las salidas que son las ventas y las devoluciones proveedores y en la franja baja viene las áreas de apoyo que son las compras, producción, comercial, logística y financiera.")
     Separador
 
     .titulo-segundo.color-acento-botones
@@ -157,7 +142,7 @@
           p.text-small(numero="4" titulo="Objetivo") El objetivo de los conteos cíclicos, además de corroborar las existencias reales con las registradas en los sistemas de información, es detectar posibles fallas o desviaciones en los procesos, analizar de forma más precisa sus posibles causas y establecer estrategias de mejora continua, con la finalidad de que los errores no se presenten logrando tener un control de inventarios cada vez más eficiente sin que se registren pérdidas para la empresa. 
           p.text-small(numero="5" titulo="Ventajas") Las ventajas de implementar conteos cíclicos es que se logra mayor exactitud y confianza en los resultados, porque se abarca un grupo pequeño de referencias y los conteos pueden ser más frecuentes, evitando que las pérdidas o desviaciones no sean detectadas a tiempo y que luego se hace más difícil establecer una trazabilidad del inventario; además, se obtiene mayor rentabilidad, productividad y mejor capacidad de respuesta a los clientes. 
           p.text-small(numero="6" titulo="Frecuencia de conteo") Se puede decir que los grandes conteos que se realizan en los almacenes donde se deben cerrar al público por varios días, dejando de generar ingresos para la empresa y teniendo que contratar más personal para esta tarea, no se harán con la implementación de los conteos cíclicos, pues al finalizar el año el conteo total estará listo y de las referencias más importantes se podrá tener frecuencia de conteo.
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-8.svg" style="max-width: 400px;" data-aos="fade-left")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-8.svg" style="max-width: 400px;" data-aos="fade-left" alt="Imagen decorativa")
 
     h4.text-center(data-aos="fade-right") ¿Cómo se puede implementar un conteo cíclico?
     p.text-center(data-aos="fade-right") La forma recomendada para aplicar un conteo cíclico es la siguiente:
@@ -167,10 +152,10 @@
         .col-lg.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
           h4 Primero separe por grupos
           p Para implementar un conteo cíclico en una empresa se seleccionará un grupo pequeño de referencias que sirvan como modelo para perfeccionar el método, allí se podrán incluir algunas referencias con alta rotación, baja rotación y referencias con gran volumen.
-        img.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src='@/assets/curso/temas/tema1/img-9.svg' style="max-width: 271px" data-aos="fade-left")
+        img.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src='@/assets/curso/temas/tema1/img-9.svg' style="max-width: 271px" data-aos="fade-left" alt="Imagen decorativa")
 
       .row
-        img.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema1/img-10.svg' style="max-width: 271px" data-aos="fade-left")
+        img.mb-4.mb-lg-auto.mx-auto(src='@/assets/curso/temas/tema1/img-10.svg' style="max-width: 271px" data-aos="fade-left" alt="Imagen decorativa")
         .col-lg.ps-lg-4(data-aos="fade-left")
           h4 Cuente lo que hay en esos grupos de referencia
           p Con estos grupos de referencia se podrán hacer conteos cíclicos a pequeña escala donde se podrán completar el ciclo varias veces detectando errores, desviaciones, inexactitud en los resultados analizando las causas e implementando mejoras que llevará al ciclo a tener los resultados confiables, logrado esto se podrá implementar a todas las referencias de la empresa, asignando la frecuencia para cada grupo de referencias.
@@ -179,10 +164,10 @@
         .col-lg.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
           h4 Organice para contar y no cerrar la empresa
           p Con la implementación del conteo cíclico se podrá destinar jornadas del día con bajo flujo de clientes, por ejemplo, al iniciar el día, donde se le indicará al personal que labora en el almacén cuáles y qué ubicación tienen las referencias a las que se realizará el conteo; de esta forma, se evitará la pérdida de ventas o la contratación de personal adicional; los artículos se pueden clasificar por categorías, por zonas o de forma aleatoria. 
-        img.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src='@/assets/curso/temas/tema1/img-11.svg' style="max-width: 271px" data-aos="fade-left")
+        img.mb-4.mb-lg-auto.order-1.order-lg-2.mx-auto(src='@/assets/curso/temas/tema1/img-11.svg' style="max-width: 271px" data-aos="fade-left" alt="Imagen decorativa")
     
     .d-flex.flex-wrap.mb-5
-      img.col-md-5.col-lg-4.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-12.png" style="max-width: 400px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-12.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
         p.fw-bold Las principales ventajas de implementar conteos cíclicos: 
         ul.lista-ul--separador
@@ -207,7 +192,7 @@
 
     p.mb-5(data-aos="fade-right") El conteo cíclico no solo tiene como objetivo encontrar diferencias en un inventario y ajustarlas, sino establecer las causas que las producen para implementar acciones que aseguren que las diferencias no se van a volver a presentar, por tanto, cada vez que se realice nuevamente el inventario los errores tendrán que tender a cero, es decir, es un proceso de mejora continua.
 
-    img.mx-auto(src='@/assets/curso/temas/tema1/img-13.svg' style="max-width: 609px" data-aos="fade-left")
+    img.mx-auto(src='@/assets/curso/temas/tema1/img-13.svg' style="max-width: 609px" data-aos="fade-left" alt="Imagen del conteo cíclico donde se encuentra la mejora continua en el centro y al rededor haciendo un ciclo se encuentra encontrar error, buscar fuentes de error, identificar causas del error y eliminar las causas del error.")
     Separador
     .titulo-segundo.color-acento-botones
       h2#t_1_4 1.4 El inventario y otras áreas de control 
@@ -224,10 +209,10 @@
           p.mb-0 Es el área que lleva todos los registros contables del inventario, entradas, salidas, pedidos, ventas, proveedores, en esta área se generan los estados financieros, resultados de pérdidas y ganancias, etc. Por lo general, también se encarga de las auditorías y controles a los inventarios.
         .tarjeta.p-4(titulo="Comercial y/o ventas " style="background-color: #E6FAF9")
           p.mb-0 Es el área que está al tanto de lo que pasa en el mercado, tendencias, gustos, etc., qué productos se deben tener en existencias por aumento de la demanda en alguna temporada de promoción.
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-14.svg" style="max-width: 400px;" data-aos="fade-left")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-14.svg" style="max-width: 400px;" data-aos="fade-left" alt="Imagen decorativa")
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-15.svg" style="max-width: 400px;" data-aos="fade-right")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-15.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       TabsA.color-acento-contenido.col-lg-8.ps-md-4(data-aos="fade-left")
         .tarjeta.p-4(titulo="Control de calidad" style="background-color: #E6FAF9")
           p.mb-0 Se encarga por velar que los productos siempre cumplan con los requisitos de calidad antes de que lleguen al cliente, que su forma de almacenamiento sea el adecuado y no sufra daño alguno que representen pérdidas para la compañía.
@@ -243,7 +228,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 2
         span.d-block Proceso bienes
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 822px;" data-aos="fade-left")
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 2. Muestra el proceso de bienes que es en secuencia el siguiente: 1. recepción materias primas 2. Almacenamiento materia prima. 3. Recepción producción. 4. Productos en proceso. 5. Recepción bodega producto. 6. Almacenamiento productos terminados. 7. Venta 8. Distribución y entrega de productos terminados.")
     
     Separador
     .titulo-segundo.color-acento-botones
@@ -257,7 +242,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 3
         span.d-block MRP
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 822px;" data-aos="fade-left")
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 3. Describe lo que se denomina MRP que es la planificación de las necesidades y viene en el centro lo que se debe producir a mano izquierda el interrogante de cuanto? y a su mano derecha cuando? y al final la pregunta de ¿que se necesita para producir?")
 
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E9F0FE")
       p.mb-0 El sistema MRP (MRP proviene de la traducción del inglés de planeación de requerimiento de materiales) previene fallas de aprovisionamiento de materiales, pues permite programar y planear las necesidades de reabastecimiento de acuerdo con el programa de producción que debe contener las fechas y contenidos a fabricar, logrando la articulación de todas las áreas de la empresa, producción, compras, financiera, etc., para dar cumplimiento al proceso de fabricación y garantizando las existencias de una fase a otra.
@@ -288,7 +273,7 @@
           li.pb-2.mb-2
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se pueden conocer anticipadamente el impacto financiero de la planificación.
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-18.png" style="max-width: 400px;" data-aos="fade-right")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-18.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
     p.fw-bold.mb-5.text-center.mx-auto(style="max-width: 744px" data-aos="fade-right") Rivera, Ortega y Pereyra (2014) hablan de tres elementos en los que los MRP (planeación de requerimiento de materiales) ayudan a cualquier empresa, estos tres elementos son:
 
     .tarjeta--container.row(data-aos="fade-left")
@@ -296,21 +281,21 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-19.svg')
+              img(src='@/assets/curso/temas/tema1/img-19.svg' alt="Imagen decorativa")
         p.mb-0 Este modelo funciona a través de un sistema de órdenes donde se especifican las materias primas e insumos y el uso de los productos en cada uno de los procesos de fabricación.
 
       .col-md.tarjeta.color-acento-botones.p-4.p-xl-5(style="background-color: #D8E4FD")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-20.svg')
+              img(src='@/assets/curso/temas/tema1/img-20.svg' alt="Imagen decorativa")
         p.mb-0 Es utilizado en empresas de fabricación y se basa en el control de la producción determinando la capacidad de disponibilidad.
 
       .col-md.tarjeta.color-acento-contenido.p-4.p-xl-5(style="background-color: #C4F2F1")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img-21.svg')
+              img(src='@/assets/curso/temas/tema1/img-21.svg' alt="Imagen decorativa")
         p.mb-0 El tercer modelo no solo tiene en cuenta los inventarios, sino que planifica todos los recursos como el presupuesto, la mano de obra, equipos o maquinaria disponible, etc. 
 
     Separador
@@ -328,7 +313,7 @@
   
     p.text-center.mb-5.fw-bold Los métodos de valoración permiten determinar el valor de las unidades que están almacenadas, entre los que podemos encontrar: 
 
-    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-left")
+    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador
     .titulo-segundo.color-acento-botones
@@ -339,13 +324,13 @@
         p La tecnología avanza cada vez más y con ella se crean nuevas alternativas para el manejo y control de los inventarios que permitirán mayor control y manejo de las existencias en una organización, optimizando el manejo de los tiempos en las líneas de producción, reduciendo tiempos muertos, lo que permitirá ser productivos y por ende más competitivos en el mercado.
 
         p Una vez que son identificadas las necesidades y las dificultades que tienen actualmente las empresas en la gestión de inventarios, es necesario la elección de un modelo óptimo que se ajuste a las condiciones reales que serán de gran ayuda, estos sistemas de información detallan los registros de las existencias y el flujo o movimientos de las mercancías lo que permitirá tener la trazabilidad en tiempo real con datos confiables, minimizando los errores que se puedan presentar por las escasez de los productos.
-      img.col-lg-3.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px;" data-aos="fade-left")
+      img.col-lg-3.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px;" data-aos="fade-left" alt="Imagen decorativa")
     
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-left" style="background-color: #E9F0FE")
       p.mb-0 La implementación de un <em>software</em> para el control de los inventarios permitirá a las organizaciones optimizar los recursos ya que contará con la información de las existencias detalladas y actualizadas, con su seguimiento rutinario, detectando a tiempo las necesidades de reabastecimiento para tener una planeación eficaz del trabajo, además, es una herramienta importante en las decisiones de la alta gerencia. 
     
     .d-flex.flex-wrap.mb-5.mb-lg-4
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" style="max-width: 400px;" data-aos="fade-right")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4(data-aos="fade-left")
         p.fw-bold Con esta implementación se busca lograr los siguientes beneficios:
         ul.lista-ul--separador
@@ -370,11 +355,11 @@
     
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los sistemas de información permiten optimizar las actividades de control de inventarios ya que se tienen datos precisos, reales y actualizados, disminuyendo las operaciones manuales y la probabilidad de que ocurran errores.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 120px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 120px;" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador
     .titulo-segundo.color-acento-botones
@@ -409,15 +394,15 @@
           li.pb-2.mb-2
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Contar con información real que apoya los procesos de auditorías y permite tomar decisiones acertadas de mejora.
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-27.png" style="max-width: 400px;" data-aos="fade-left")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-27.png" style="max-width: 400px;" data-aos="fade-left" alt="Imagen decorativa")
 
     p.text-center.fw-bold.mb-5(data-aos="fade-right") Algunas herramientas tecnológicas que se encuentran para la gestión de los inventarios son:
 
     .d-flex.flex-wrap.mb-5.mb-lg-4
-      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 400px;" data-aos="fade-right")
+      img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
         LineaTiempoD.color-secundario(data-aos="fade-left")
-          p.text-small(numero="1" titulo="<em>Software</em> de alerta de <em>restock</em>") Cuando se alcanzan niveles determinados de stock, este sistema de información avisa el momento en el que se debe reabastecer algunos productos, teniendo en cuenta información como fechas de vencimiento, ventas, ofertas, etc
+          p.text-small(numero="1" titulo="<em>Software</em> de alerta de <em>restock</em>") Cuando se alcanzan niveles determinados de stock, este sistema de información avisa el momento en el que se debe reabastecer algunos productos, teniendo en cuenta información como fechas de vencimiento, ventas, ofertas, etc.
           p.text-small(numero="2" titulo="<em>Software</em> de reporte de inventario") Este <em>software</em> permite consolidar toda la información de los inventarios generando informes de ventas, compras, pérdidas, etc. Además, permite determinar la cantidad óptima de productos.
           p.text-small(numero="3" titulo="Códigos de barra") Es una herramienta bastante utilizada hoy en día ya que permite la recolección de información a través de los códigos de barra disminuyendo así la probabilidad de errores manuales de registro, permitiendo tener información con mayor precisión.
           p.text-small(numero="4" titulo="<em>Dashboards</em> (tableros)") Muestra gráficos con datos en una pantalla, permite la categorización de la información de acuerdo a las necesidades de la organización, como por ejemplo las ventas del mes, el nivel de inventario por área, etc. 
@@ -426,10 +411,10 @@
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px")
-      .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
+      .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6" alt="Imagen decorativa")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Las herramientas tecnológicas se deben escoger de acuerdo con las necesidades de operación de las organizaciones.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-29.svg" style="max-width: 120px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-29.svg" style="max-width: 120px;" data-aos="fade-left" alt="Imagen decorativa")
 </template>
 
 <script>

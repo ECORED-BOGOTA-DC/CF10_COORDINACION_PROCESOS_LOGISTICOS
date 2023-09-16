@@ -24,7 +24,7 @@
     p.mb-5(data-aos="fade-right") Los conteos físicos se deben hacer con frecuencia y con la participación de personal independiente para ejercer mayor control, buscando, además de verificar y comprobar lo que hay físico en el almacén los siguientes objetivos:
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
-      img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 400px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
         ul.lista-ul--separador
           li.pb-2.mb-2(style="border-bottom-style: dashed")
@@ -55,7 +55,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 4
         span.d-block Aspectos del inventario
-      img.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 1040px;" data-aos="fade-left")
+      img.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 4. describe lo que se debe tener en cuenta antes, durante y después de un inventario, eso se indica luego de la imagen.")
 
     .d-flex.flex-wrap.d-lg-none.justify-content-center
       .col-12.col-md-6.col-lg-4.px-md-2.px-xl-3.d-flex.mb-4(data-aos="fade-right")
@@ -99,18 +99,18 @@
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 El objetivo de toda administración de una empresa es tener el control de sus inventarios, una forma de hacerlo es realizar inventarios de forma eficiente que arrojen resultados reales y que permitan conocer y analizar el estado de sus bienes.
         p.mb-0(data-aos="fade-right") Para llevar a cabo un inventario se debe tener en cuenta toda la información y datos que se tengan de los productos como rotación (entradas y salidas), ventas, producto en tránsito, etc., todo esto permitirá conocer la realidad permitiendo efectuar una buena evaluación del inventario que lleve a encontrar pérdidas o desviaciones en los procesos y que servirán como base para diseñar estrategias para mejorar o corregir desviaciones.
-      img.order-1.order-lg-2.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-4.png" style="max-width: 505px;" data-aos="fade-right")
+      img.order-1.order-lg-2.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-4.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
     p.mb-5(data-aos="fade-right") Para la realización del inventario la empresa debe elegir de acuerdo con su contexto, el método que más le favorezca para lograr los resultados esperados, además, se asignarán los recursos necesarios (personas, material, espacio, software) que se tendrán para llevarlo a cabo de la forma más eficiente, para hacer un inventario se debe tener en cuenta:
 
     LineaTiempoD.color-secundario.mb-5(data-aos="fade-right")
       p.text-small(numero="1" titulo="Definir qué se va a inventariar") Lo primero que la alta dirección debe definir es: ¿cuáles bienes son los que se van a inventariar? Puede ser alguna línea o referencia específica, o si corresponden a materias primas, insumos, productos en proceso o producto terminado; o si la empresa tiene varios almacenes o bodegas se podrían inventariar todas las referencias que hay en un determinado almacén, teniendo en cuenta si el inventario corresponde a alguna auditoría, o si se presentó algún fraude dentro de la empresa o es un inventario por término de un periodo contable. Es de gran importancia tener todos estos aspectos claros, ya que permiten una buena planificación y programación y evitar que se presenten errores.
-      p.text-small(numero="2" titulo="Identificar los lugares a inventariar") Se deben tener identificados todos los lugares donde se encuentren los artículos a inventariar para que no queden por fuera del conteo. Es conveniente hacer una preparación de los lugares con anticipación recorrerlos y ordenarlos para trazar el recorrido a realizar. Como ejemplo se puede tratar de una empresa comercial que tenga varios puntos de ventas, es importante planificar la ruta a todos los puntos.
+      p.text-small(numero="2" titulo="Identificar los lugares a inventariar") Se deben tener identificados todos los lugares donde se encuentren los artículos a inventariar para que no queden por fuera del conteo. Es conveniente hacer una preparación de los lugares con anticipación, recorrerlos y ordenarlos para trazar el recorrido a realizar. Como ejemplo se puede tratar de una empresa comercial que tenga varios puntos de ventas, es importante planificar la ruta a todos los puntos.
       p.text-small(numero="3" titulo="Equipo de trabajo") Es de gran ayuda y hará más eficiente el trabajo contar con personal que conozca el almacén o el lugar donde están los productos a inventariar, en lo posible hacer una reunión previa con el equipo de trabajo para que conozcan el objetivo del inventario. 
-      p.text-small(numero="4" titulo="Seleccionar las herramientas de control del inventario") Hoy en día existe gran variedad de herramientas <em>online</em> o automatizadas que permiten agilizar el proceso desde la clasificación hasta el control final, se debe elegir la que más se adapte a las necesidades de la organización. Para realizar el conteo físico de las existencias se podrá hacer de dos formas: manual o a través de un lector de código de barras el cual agilizará el conteo.
+      p.text-small(numero="4" titulo="Seleccionar las herramientas de control del inventario") Hoy en día existe gran variedad de herramientas <em>online</em> o automatizadas que permiten agilizar el proceso desde la clasificación hasta el control final, se debe elegir la que más se adapte a las necesidades de la organización. Para realizar el conteo físico de las existencias se podrá hacer de dos formas: manual o a través de un lector de código de barras, el cual agilizará el conteo.
       p.text-small(numero="5" titulo="Metodología y recorrido del inventario") Se fija la fecha, la manera cómo se realizará el conteo físico (manual o con un lector), la ruta a seguir para llegar a todos los puntos donde se encuentren los productos a inventariar, y todas las acciones a tener en cuenta para evitar posibles errores que se puedan presentar como, por ejemplo, contar más de una vez el mismo producto, para este caso se podrá optar por marcar con alguna seña o cambiar de posición el producto que ya ha sido contado. 
       p.text-small(numero="6" titulo="Recuento y registro") Se va registrando cada producto inventariado, se pueden realizar reconteos en grupos pequeños de productos para detectar cualquier posible falla y tomar correcciones de inmediato, ya que es más fácil detectarlas en grupos pequeños, una vez terminado el conteo se hace verificación de la información recopilada, que todas las referencias estén dentro del conteo.
-      p.text-small(numero="7" titulo="Análisis de la información") Una vez terminado el conteo se realiza la verificación de los datos del conteo versus información previa de las existencias, detectando, en primera instancia, los posibles faltantes que se estén presentando para realizar una nueva verificación y encontrarlos de lo contrario representan pérdidas que se puedan estar dando por errores en los procesos, por algún fraude, etc., es aquí donde la alta dirección debe tomar decisiones importantes sobre la gestión de los inventarios como cambio en algún procedimiento, implementación de herramientas tecnológicas, capacitación al personal, etc.
-      p.text-small(numero="8" titulo="Acta final") Se debe elaborar un acta del inventario donde quede consignado todo el procedimiento del inventario hora de inicio, hora fin, participantes, resultados del conteo, diferencias, observaciones, etc. 
+      p.text-small(numero="7" titulo="Análisis de la información") Una vez terminado el conteo se realiza la verificación de los datos del conteo versus información previa de las existencias, detectando, en primera instancia, los posibles faltantes que se estén presentando para realizar una nueva verificación y encontrarlos, de lo contrario representan pérdidas que se puedan estar dando por errores en los procesos, por algún fraude, etc., es aquí donde la alta dirección debe tomar decisiones importantes sobre la gestión de los inventarios como cambio en algún procedimiento, implementación de herramientas tecnológicas, capacitación al personal, etc.
+      p.text-small(numero="8" titulo="Acta final") Se debe elaborar un acta del inventario donde quede consignado todo el procedimiento del inventario, hora de inicio, hora fin, participantes, resultados del conteo, diferencias, observaciones, etc. 
 
     p.mb-5.fw-bol.text-center Para tener una buena planificación en la realización de un inventario se debe tener respuesta a las siguientes preguntas:
 
@@ -122,7 +122,7 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 5
           span.d-block Planificación inventario 
-        img.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px;" data-aos="fade-left")
+        img.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px;" data-aos="fade-left" alt="Figura 5. Describe preguntas y respuestas sobre la buena planificación, estas son: ¿Qué voy a inventariar? Respuesta: material prima, insumos, producto. ¿Dónde está lo que voy a inventariar? Respuesta: bodegas, almacenes, producción. ¿Qué recursos tengo? Respuesta: personas, herramientas, infraestructura. ¿Cómo lo voy a hacer? Respuesta: ruta, metodología.")
 
     Separador 
 
@@ -133,13 +133,16 @@
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto.mb-5
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           h5 ¿Cómo evitar las pérdidas?
           p.mb-0.order-2.order-md-1.pe-md-4(data-aos="fade-right") Una organización puede implementar medidas que permitan minimizar el riesgo a que se presenten pérdidas en los inventarios, aunque no garantiza que no se presenten se tendrá un mayor control de las existencias.
     
     .col-xl-10.mx-auto
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Tabla 1
+        span.d-block Ejemplos de indicadores
       .tabla-a.color-primario.mb-5(data-aos="fade-left")
         table.d-flex.flex-wrap
           thead.w-100
@@ -210,9 +213,6 @@
                     | Tener definidas y socializadas las políticas de gestión de inventarios.
                   li.pb-2.mb-2(style="border-bottom-style: dashed")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
-                    | Tener definidas y socializadas las políticas de gestión de inventarios.
-                  li.pb-2.mb-2(style="border-bottom-style: dashed")
-                    i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Implementar el uso de herramientas tecnológicas que disminuyan las operaciones manuales y, por ende, el riesgo a los errores, como lectores de códigos de barra.
                   li.pb-2.mb-2(style="border-bottom-style: dashed")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
@@ -222,9 +222,9 @@
                     | Capacitar frecuentemente al personal en la gestión de inventarios y el uso de herramientas tecnológicas.
       
     .d-flex.flex-wrap.align-items-start.position-relative
-      img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 295px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.col-xl-9.ps-md-4(data-aos="fade-left")
-        p La falta de registros en los movimientos de los productos desde que ingresan hasta que son entregados a los clientes también maximizan las probabilidades de pérdidas, ya que no se cuenta con datos precisos de lo que se compra y sus movimientos dentro de la cadena de abastecimiento permitiendo que la mercancía desaparezca no solo por fraude o robo, sino por desorganización en la gestión de los inventarios; además, las pérdidas se dan porque al no conocer el valor real de las existencias se puede pedir inventario en exceso o fallas por escasez de productos.
+        p La falta de registros en los movimientos de los productos desde que ingresan hasta que son entregados a los clientes también maximizan las probabilidades de pérdidas, ya que no se cuenta con datos precisos de lo que se compra y sus movimientos dentro de la cadena de abastecimiento, permitiendo que la mercancía desaparezca no solo por fraude o robo, sino por desorganización en la gestión de los inventarios; además, las pérdidas se dan porque al no conocer el valor real de las existencias se puede pedir inventario en exceso o fallas por escasez de productos.
 
         p.mb-0 El éxito de toda empresa es analizar y saber con exactitud dónde, cómo y por qué se están presentando las pérdidas para aplicar estrategias que permitan actuar ante los diferentes riesgos que implica toda operación comercial, ya que estos pueden traer consecuencias negativas sobre la rentabilidad, la estabilidad operativa y hasta de imagen de las organizaciones.
 
@@ -288,15 +288,14 @@
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       .order-2.order-lg-1.col-lg-8.col-xl-7.pe-lg-4
-        p(data-aos="fade-right") Los indicadores de gestión son una herramienta de referencia que permiten medir el cumplimiento a la gestión realizada para el logro de los objetivos propuestos en un periodo de tiempo determinado, es importante, entonces, fijar indicadores que reflejen datos concretos del funcionamiento de la organización ya que se puede hacer el análisis de una situación y, con base en ellos, tomar decisiones importantes para el presente o el futuro que contribuyan al cumplimiento de la misión de la empresa.
+        p(data-aos="fade-right") Los indicadores de gestión son una herramienta de referencia que permiten medir el cumplimiento a la gestión realizada para el logro de los objetivos propuestos en un periodo de tiempo determinado, es importante, entonces, fijar indicadores que reflejen datos concretos del funcionamiento de la organización, ya que se puede hacer el análisis de una situación y, con base en ellos, tomar decisiones importantes para el presente o el futuro que contribuyan al cumplimiento de la misión de la empresa.
         .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E9F0FE")
           p.mb-0 Los indicadores son definidos por la alta dirección según los objetivos que se ha trazado, con ellos buscan medir y analizar si los procesos, políticas, procedimientos que se han definido en la cadena de abastecimiento están teniendo éxito o de lo contrario deben ser ajustados en alguna parte del proceso para lograr el cumplimiento del desempeño o lograr los resultados esperados.
-      img.order-1.order-lg-2.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-8.png" style="max-width: 505px;" data-aos="fade-right")
-
+      img.order-1.order-lg-2.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-8.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
     p.mb-5(data-aos="fade-right") Los indicadores son esenciales en el funcionamiento de una empresa, ya que todo proceso se debe medir para poder controlar lo que se está y cómo se está haciendo, al tener control de las operaciones se pueden detectar fallas o condiciones a mejorar, los indicadores se caracterizan por:
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
-      img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-9.svg" style="max-width: 400px;" data-aos="fade-right")
+      img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-9.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.ps-md-4
         ul.lista-ul--separador(data-aos="fade-left")
           li.pb-2.mb-2(style="border-bottom-style: dashed")
@@ -315,7 +314,7 @@
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Analizar situaciones de riesgo para la empresa y direccionar planes financieros.
 
-    p.mb-5(data-aos="fade-right") Los indicadores buscan determinar si los procesos son eficientes, si la manera de hacer las cosas hace más competitiva a la empresa y qué aspectos se deben mejorar, con lo que se puede conocer el estado real de la organización y dejar de tomar decisiones sobre supuestos, y estos deben ser :
+    p.mb-5(data-aos="fade-right") Los indicadores buscan determinar si los procesos son eficientes, si la manera de hacer las cosas hace más competitiva a la empresa y qué aspectos se deben mejorar, con lo que se puede conocer el estado real de la organización y dejar de tomar decisiones sobre supuestos, y estos deben ser:
 
     .container-100.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.png')})`}"
@@ -325,8 +324,8 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 6
           span.d-block Indicadores procesos 
-        img.d-none.d-lg-flex.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 1040px;" data-aos="fade-left")
-        img.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema2/img-10_1.svg" style="max-width: 257px;" data-aos="fade-left")
+        img.d-none.d-lg-flex.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
+        img.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema2/img-10_1.svg" style="max-width: 257px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
 
     p.col-xl-10.mx-auto.mb-5(data-aos="fade-right") Para elegir los indicadores que más se ajusten a las necesidades de la empresa, es necesario conocer el rendimiento interno, es decir, qué tan eficientes son los procesos y qué costos tienen, así como saber el rendimiento externo y establecer si los clientes están satisfechos; para ello existen indicadores de: 
 
@@ -339,7 +338,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema2/tj-1.jpg")
+                  img(src="@/assets/curso/temas/tema2/tj-1.jpg" alt="Imagen decorativa Cumplimiento")
               .crd_hover_txt--body(style="background-color: #91B3FAF0")
                 h4.mb-3.text-center Cumplimiento
                 p.mb-0 Mide el grado de cumplimiento con la finalización de una tarea o actividad, ejemplo: cumplimiento del plan de producción.
@@ -348,7 +347,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema2/tj-2.jpg")
+                  img(src="@/assets/curso/temas/tema2/tj-2.jpg" alt="Imagen decorativa Evaluación")
               .crd_hover_txt--body(style="background-color: #57DBD8F0")
                 h4.mb-3.text-center Evaluación
                 p.mb-0 Están relacionados con el rendimiento que se tiene de una actividad o proceso. Ejemplo: evaluación en la gestión de los pedidos.
@@ -357,7 +356,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema2/tj-3.jpg")
+                  img(src="@/assets/curso/temas/tema2/tj-3.jpg" alt="Imagen decorativa Eficiencia")
               .crd_hover_txt--body(style="background-color: #91B3FAF0")
                 h4.mb-3.text-center Eficiencia
                 p.mb-0 Mide la capacidad de llevar a cabo una actividad con el mínimo de recursos. Ejemplo: tiempo de fabricación de un producto, piezas / hora.
@@ -366,7 +365,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema2/tj-4.jpg")
+                  img(src="@/assets/curso/temas/tema2/tj-4.jpg" alt="Imagen decorativa Eficacia")
               .crd_hover_txt--body(style="background-color: #57DBD8F0")
                 h4.mb-3.text-center Eficacia
                 p.mb-0 Están relacionados con la capacidad de acierto en la consecución de actividades. Ejemplo: pedidos entregados a tiempos y clientes satisfechos. 
@@ -375,7 +374,7 @@
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
-                  img(src="@/assets/curso/temas/tema2/tj-5.jpg")
+                  img(src="@/assets/curso/temas/tema2/tj-5.jpg" alt="Imagen decorativa Gestión")
               .crd_hover_txt--body(style="background-color: #57DBD8F0")
                 h4.mb-3.text-center Gestión
                 p.mb-0 Se relacionan con la administración y las acciones que se ejecutan para llevar a cabo una actividad programada. 
@@ -403,7 +402,7 @@
               td.col-2.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Pérdidas.
               td.col-5
-                p.w-100.mb-0 Es el indicador que más preocupa a la alta dirección de la organización ya que pueden ser muy costosas para la empresa. Estas pérdidas se pueden dar por exceso de existencias, robo, vencimientos.
+                p.w-100.mb-0 Es el indicador que más preocupa a la alta dirección de la organización, ya que pueden ser muy costosas para la empresa. Estas pérdidas se pueden dar por exceso de existencias, robo, vencimientos.
               td.col-5
                 p.w-100 Pérdidas = inventario total - ventas totales - inventario actual.
             tr.d-flex.col-12
@@ -423,11 +422,11 @@
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los indicadores de gestión permiten analizar y conocer la situación de la compañía para tomar decisiones de estrategias que lleven al éxito del negocio.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 197px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema2/img-11.svg" style="max-width: 197px;" data-aos="fade-left" alt="Imagen decorativa")
 
 </template>
 

@@ -152,7 +152,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/121523_CF10_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -183,7 +183,7 @@ export default {
     {
       termino: 'Inventario',
       significado:
-        'conjunto de mercancías o artículos que tiene la empresa para comerciar con aquellos, permitiendo la compra y venta o la fabricación primero antes de venderlos, en un periodo económico determinados. Deben aparecer en el grupo de activos circulantes (Escolme, S. F.).',
+        'conjunto de mercancías o artículos que tiene la empresa para comerciar con aquellos, permitiendo la compra y venta o la fabricación primero antes de venderlos, en un periodo económico determinado. Deben aparecer en el grupo de activos circulantes (Escolme, S. F.).',
     },
     {
       termino: 'Almacenamiento',

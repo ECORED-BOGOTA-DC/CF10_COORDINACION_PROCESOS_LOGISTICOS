@@ -10,12 +10,12 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Merchandising farmacéutico
+          h2 Elaboración de inventarios
         p.mb-4 Abordar los conocimientos de la competencia lanzar la promoción comercial según objetivos y herramientas promocionales para reconocer estrategias de mercado
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Cuestionario
+              p.fw-bold.mb-0 Completar espacios
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
