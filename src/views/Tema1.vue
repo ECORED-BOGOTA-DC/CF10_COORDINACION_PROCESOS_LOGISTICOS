@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Elaboración del inventario
     
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.jpg')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Elaborar un inventario es una realidad que cada industria tiene que tomar en algún momento de su vida útil, y al momento de hacerlo se tendrá mucha información que manejar y si se quiere hacer bien se deben tener en cuenta varios aspectos como los que se muestran a lo largo de este contenido de formación.
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_1 1.1 Importancia del control de inventarios
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
@@ -27,7 +27,7 @@
 
     p.fw-bold.mb-5.mx-auto.text-center(style="max-width: 726px" data-aos="fade-right") La alta dirección debe velar que estos posibles inconvenientes no se presenten diseñando e implementando estrategias que permitan el control adecuado de las existencias:
 
-    .container-100.mb-5.py-5(
+    .container-100.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.png')})`}"
       style="background-repeat: no-repeat; background-position: center;"
     )
@@ -68,10 +68,10 @@
       .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
         p Los inventarios tienen gran importancia en las organizaciones, pues de ellos dependen en gran medida el éxito financiero en las empresas; y a continuación se muestran algunos elementos que marcan el porqué:
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Los activos de las empresas en gran parte están representados por los inventarios.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Mantener, manejar y controlar los inventarios requieren una gran inversión en las organizaciones.
           li.pb-2.mb-2
@@ -81,7 +81,7 @@
     p.mb-5(data-aos="fade-right") Además, los inventarios permiten la flexibilidad en la programación de la producción, ya que con las existencias del material requerido se garantizará que los productos estarán listos en la cantidad exacta en los tiempos pactados cubriendo así la demanda; esta planeación permitirá tener un flujo en la operación y reducir la probabilidad de que se presenten fenómenos como el cuello de botella que se da cuando en algún punto de la cadena de suministros hace falta algún elemento que impide la producción con calidad en el tiempo establecido.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
@@ -89,7 +89,7 @@
           img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 169px;" data-aos="fade-left" alt="Imagen decorativa")
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.2 Principios del control de inventarios
     
     p.mb-5(data-aos="fade-right") El control de inventarios es una técnica que permite mantener las existencias de los productos de acuerdo con las necesidades de producción o de ventas de la empresa, teniendo en cuenta que los inventarios representan una inversión importante la alta dirección debe encontrar en la gestión de inventarios un aliado en el control de costos, para esto los controles deben ser:
@@ -115,6 +115,7 @@
             .h2 3
           h3 Representativos
           p.mb-0 El control debe enfocarse principalmente a las actividades más representativas, afín de reducir costos y tiempo.
+    
     p.mb-5(data-aos="fade-right") La administración de inventarios se basa en políticas que permitan decidir cuándo y cuánto se debe reabastecer para mantener el material disponible, además, se debe contar con información precisa de las existencias disponibles en bodega, la cantidad de producto que está pendiente por llegar o en tránsito, para esto requiere de información precisa para tomar buenas decisiones, la cual se centra en cuatro aspectos básicos:
 
     img.mx-auto.mb-5.col-lg-10.col-xl-8(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 811px;" data-aos="fade-left" alt="Imagen que indica los cuatro pilares en la administración de inventarios que son: 1. Cantidad de productos en producción. 2. Tiempo de producción y reabastecimiento. 3. Artículos con mayor demanda o que impliquen mayor tiempo de reabastecimiento. 4. Variaciones en los costos de los artículos por inventario.")
@@ -123,12 +124,12 @@
 
     .mx-auto.col-lg-10.col-xl-8
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 1
-        span.d-block Control inventarios
+        h5 Figura 1.
+        span Control inventarios
       img.mx-auto(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 823px;" data-aos="fade-left" alt="Figura 1. Muestra el mapa conceptual de nomenclatura que contiene: Entradas como la recepción de compras, la devolución de clientes y la recepción de traslados luego viene el almacén y luego las salidas que son las ventas y las devoluciones proveedores y en la franja baja viene las áreas de apoyo que son las compras, producción, comercial, logística y financiera.")
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_3 1.3 Conteo cíclico
     
     p.mb-5(data-aos="fade-right") Este sistema de inventario evita en la gran mayoría de los casos cerrar la empresa, por eso, es fundamental revisar al detalle el siguiente recurso.
@@ -168,33 +169,34 @@
     
     .d-flex.flex-wrap.mb-5
       img.col-md-5.col-lg-4.mx-auto.mb-4.mb-md-auto(src="@/assets/curso/temas/tema1/img-12.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
-      .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
+      .col-md-7.col-lg-8.ps-md-4
         p.fw-bold Las principales ventajas de implementar conteos cíclicos: 
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se pueden hacer sin afectar la operación del negocio.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Permite detectar rápidamente las diferencias encontradas en el inventario y eliminar la causa.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se selecciona previamente un segmento de productos que requiera especial atención.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Los conteos son frecuentes, por tanto, se mantienen.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Lo realiza personal que conozca la operación y particularidades de las referencias a contar.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Por ser grupos pequeños hay menor probabilidad de errores en el conteo.
 
     p.mb-5(data-aos="fade-right") El conteo cíclico no solo tiene como objetivo encontrar diferencias en un inventario y ajustarlas, sino establecer las causas que las producen para implementar acciones que aseguren que las diferencias no se van a volver a presentar, por tanto, cada vez que se realice nuevamente el inventario los errores tendrán que tender a cero, es decir, es un proceso de mejora continua.
 
     img.mx-auto(src='@/assets/curso/temas/tema1/img-13.svg' style="max-width: 609px" data-aos="fade-left" alt="Imagen del conteo cíclico donde se encuentra la mejora continua en el centro y al rededor haciendo un ciclo se encuentra encontrar error, buscar fuentes de error, identificar causas del error y eliminar las causas del error.")
+    
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_4 1.4 El inventario y otras áreas de control 
     
     p.mb-5(data-aos="fade-right") Los inventarios son fundamentales en toda la cadena de abastecimiento, pero para que se dé una buena gestión debe existir una buena comunicación entre todas las áreas ya que de alguna manera juegan un papel importante en el proceso, desde que llegan a la bodega de materias primas hasta la distribución final al cliente como lo puede ver en el siguiente recurso:
@@ -222,16 +224,17 @@
           p.mb-0 Es el área que más interviene en la operación de los inventarios, ya que es la que controla de forma física la gestión de los inventarios desde que llega al almacén, recepción, movimientos, control.
         .tarjeta.p-4(titulo="Distribución o transporte" style="background-color: #E6FAF9")
           p.mb-0 Es el área que se encarga de llevar los pedidos a los clientes.
-    p.fw-bold.mb-5.text-center El proceso de los bienes dentro de la cadena de abastecimiento se muestra en la figura 2.
+    
+    p.fw-bold.mb-5.text-center(data-aos="fade-right") El proceso de los bienes dentro de la cadena de abastecimiento se muestra en la figura 2.
 
     .mx-auto.col-lg-10.col-xl-8
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 2
-        span.d-block Proceso bienes
+        h5 Figura 2.
+        span Proceso bienes
       img.mx-auto(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 2. Muestra el proceso de bienes que es en secuencia el siguiente: 1. recepción materias primas 2. Almacenamiento materia prima. 3. Recepción producción. 4. Productos en proceso. 5. Recepción bodega producto. 6. Almacenamiento productos terminados. 7. Venta 8. Distribución y entrega de productos terminados.")
     
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_5 1.5 Planificación de los requerimientos de material (MRP)
     
     p(data-aos="fade-right") El MRP es un sistema que permite determinar las necesidades de materias primas, insumos, productos terminados, subconjuntos, etc., teniendo en cuenta los tiempos de duración de producción, compras, etc., permitiendo planificar en el tiempo el reabastecimiento de los componentes requeridos para la siguiente etapa del proceso.
@@ -240,58 +243,58 @@
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 3
-        span.d-block MRP
+        h5 Figura 3.
+        span MRP
       img.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 3. Describe lo que se denomina MRP que es la planificación de las necesidades y viene en el centro lo que se debe producir a mano izquierda el interrogante de cuanto? y a su mano derecha cuando? y al final la pregunta de ¿que se necesita para producir?")
 
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E9F0FE")
       p.mb-0 El sistema MRP (MRP proviene de la traducción del inglés de planeación de requerimiento de materiales) previene fallas de aprovisionamiento de materiales, pues permite programar y planear las necesidades de reabastecimiento de acuerdo con el programa de producción que debe contener las fechas y contenidos a fabricar, logrando la articulación de todas las áreas de la empresa, producción, compras, financiera, etc., para dar cumplimiento al proceso de fabricación y garantizando las existencias de una fase a otra.
     
-    p.mb-5.fw-bold Entre los beneficios del sistema MRP se puede encontrar que: 
+    p.mb-5.fw-bold(data-aos="fade-right") Entre los beneficios del sistema MRP se puede encontrar que: 
 
     .d-flex.flex-wrap.mb-5.mb-lg-4
-      .col-lg-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
+      .col-lg-8.pe-lg-4.order-2.order-lg-1
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Hay incremento en la productividad, ya que no se tendrán tiempos muertos o cuellos de botella por escasez que generan pérdidas en la mano de obra o maquinaria en la producción.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se optimiza el uso de los recursos de la empresa evitando el desperdicio de materias primas, insumos, maquinaria, mano de obra, etc.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Permite el control de los inventarios evitando tener existencias descontroladas.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se optimizan las horas trabajadas del personal evitando o reduciendo el pago de horas extras o la contratación de mano de obra adicional.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Cumplimiento con los requerimientos a tiempo de la demanda, por lo tanto, tendremos clientes satisfechos.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Disminución de las existencias que no se requieren y por ende reducción de los costos de almacenamiento, manejo y mantener los inventarios.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Se pueden conocer anticipadamente el impacto financiero de la planificación.
       img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-18.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
     p.fw-bold.mb-5.text-center.mx-auto(style="max-width: 744px" data-aos="fade-right") Rivera, Ortega y Pereyra (2014) hablan de tres elementos en los que los MRP (planeación de requerimiento de materiales) ayudan a cualquier empresa, estos tres elementos son:
 
-    .tarjeta--container.row(data-aos="fade-left")
-      .col-md.tarjeta.color-primario.p-4.p-xl-5(style="background-color: #C4F2F1")
+    .tarjeta--container.row
+      .col-md.tarjeta.color-primario.p-4.p-xl-5(style="background-color: #C4F2F1" data-aos="fade-right")
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/img-19.svg' alt="Imagen decorativa")
         p.mb-0 Este modelo funciona a través de un sistema de órdenes donde se especifican las materias primas e insumos y el uso de los productos en cada uno de los procesos de fabricación.
 
-      .col-md.tarjeta.color-acento-botones.p-4.p-xl-5(style="background-color: #D8E4FD")
+      .col-md.tarjeta.color-acento-botones.p-4.p-xl-5(style="background-color: #D8E4FD" data-aos="flip-up")
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/img-20.svg' alt="Imagen decorativa")
         p.mb-0 Es utilizado en empresas de fabricación y se basa en el control de la producción determinando la capacidad de disponibilidad.
 
-      .col-md.tarjeta.color-acento-contenido.p-4.p-xl-5(style="background-color: #C4F2F1")
+      .col-md.tarjeta.color-acento-contenido.p-4.p-xl-5(style="background-color: #C4F2F1" data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -299,24 +302,24 @@
         p.mb-0 El tercer modelo no solo tiene en cuenta los inventarios, sino que planifica todos los recursos como el presupuesto, la mano de obra, equipos o maquinaria disponible, etc. 
 
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_6 1.6 Valoración de inventarios
     
     p.mb-5(data-aos="fade-right") Los métodos de valoración de inventarios son técnicas aplicadas para valorar las unidades en términos monetarios, es decir, permiten determinar el valor monetario de cada unidad de materia prima que sale para producción, o el valor monetario de cada producto terminado con destino a la venta teniendo en cuenta que los valores fluctúan y las unidades se van adquiriendo a distintos precios.
 
     .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-22.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-22.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Las empresas deben conocer el valor de su inventario, pues representan dinero inmovilizado que se debe contabilizar, además, determinar sus costos de operación, el valor de sus productos terminados y el precio de venta al público, ya que todos estos valores hacen parte del balance general y el estado de resultados de la empresa. 
   
-    p.text-center.mb-5.fw-bold Los métodos de valoración permiten determinar el valor de las unidades que están almacenadas, entre los que podemos encontrar: 
+    p.text-center.mb-5.fw-bold(data-aos="fade-right") Los métodos de valoración permiten determinar el valor de las unidades que están almacenadas, entre los que podemos encontrar: 
 
     img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_7 1.7 Importancia de los sistemas de información (<em>software</em>) para el control de inventarios 
 
     .d-flex.flex-wrap.mb-5.mb-lg-4
@@ -331,30 +334,30 @@
     
     .d-flex.flex-wrap.mb-5.mb-lg-4
       img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
-      .col-lg-8.ps-lg-4(data-aos="fade-left")
-        p.fw-bold Con esta implementación se busca lograr los siguientes beneficios:
+      .col-lg-8.ps-lg-4
+        p.fw-bold(data-aos="fade-left") Con esta implementación se busca lograr los siguientes beneficios:
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Alianzas con proveedores para la reducción de tiempos de reposición.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Cumplir con los tiempos de entrega de los productos pactados con los clientes.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Mayor información sobre la demanda, tendencias.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Permite una planeación eficaz de las actividades tanto administrativas como operativas.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Estandarización de productos para reducir los costos por mantenimiento de ítems parecidos.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Evitar tiempos muertos a lo largo de la cadena de abastecimiento por escasez de los productos.
     
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
@@ -362,36 +365,36 @@
           img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 120px;" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_8 1.8 Equipos de sistematización rápida de información 
     
-    p.mb-5(data-aos="fade-right") Hoy en día existen herramientas tecnológicas que facilitan y agilizan las operaciones de administración de los inventarios permitiendo mayor control en todos los movimientos y con información precisa en tiempo real optimizando las actividades relacionadas con el manejo de las existencias; entre sus objetivos se encuentra :
+    p.mb-5(data-aos="fade-right") Hoy en día existen herramientas tecnológicas que facilitan y agilizan las operaciones de administración de los inventarios permitiendo mayor control en todos los movimientos y con información precisa en tiempo real optimizando las actividades relacionadas con el manejo de las existencias; entre sus objetivos se encuentra:
 
     .d-flex.flex-wrap.mb-5.mb-lg-4
-      .col-lg-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
+      .col-lg-8.pe-lg-4.order-2.order-lg-1
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Mantener la información actualizada.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Disminuir los tiempos en operaciones manuales.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Tener más exactitud en el control de inventarios.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Contar con trazabilidad en los inventarios.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Conocer todos los movimientos de entradas y salidas de los productos.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Saber con exactitud el lugar donde se encuentra.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Tener información adicional de los productos, lote, fecha de vencimiento, destino, etc.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-right")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Contar con información real que apoya los procesos de auditorías y permite tomar decisiones acertadas de mejora.
       img.col-lg-4.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-27.png" style="max-width: 400px;" data-aos="fade-left" alt="Imagen decorativa")

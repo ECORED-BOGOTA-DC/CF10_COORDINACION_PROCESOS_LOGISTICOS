@@ -2,21 +2,21 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Conteo físico y registro de inventarios
     
     .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(style="background-color: #57DBD8")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 En realidad, muchas herramientas han intentado reemplazar el contexto del inventario físico y lo han logrado con buenos comentarios, pero hasta ahora una de las mejores opciones para hacer que todo funcione tiene que ver con el conteo, y es hacer un conteo de buena calidad de manera manual con personal capacitado para ello como lo verá a continuación en este punto del componente formativo.
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_1 2.1 Conceptos generales 
     
     p(data-aos="fade-right") El conteo físico es el procedimiento por el cual se verifican las existencias físicas en una bodega como medida de control a pérdidas o desviaciones en los procesos que permitirá determinar sus causas y establecer los correctivos necesarios para que no vuelvan a ocurrir, considerando productos en proceso, materias primas, insumos, productos terminados, activo fijo, etc.
@@ -25,42 +25,42 @@
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
-      .col-md-7.col-lg-8.ps-md-4(data-aos="fade-left")
+      .col-md-7.col-lg-8.ps-md-4
         ul.lista-ul--separador
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Determinar si los costos están correctamente determinados.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Verificar la rotación y tomar decisiones sobre obsoletos, productos en mal estado o con poco movimiento.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Comprobar reportes de producción y ventas.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Evaluar la infraestructura donde se encuentren almacenados los productos si cumple con los requisitos para que no se afecte la calidad de los productos.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Verificar los registros contables.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Organizar las existencias.
     
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E9F0FE")
       p.mb-0 Con toda esta información se logra tener un inventario actualizado y con registros confiables lo que permite una mejor evaluación y conocimiento de la situación de las existencias e implementar estrategias que contribuyan a prestar un mejor servicio al cliente.
 
-    p.mb-5.text-center.fw-bold Algunos aspectos a tener en cuenta antes, durante y después de la realización de un inventario son: 
+    p.mb-5.text-center.fw-bold(data-aos="fade-right") Algunos aspectos a tener en cuenta antes, durante y después de la realización de un inventario son: 
 
     .mx-auto.col-xl-11.mb-5.d-none.d-lg-block
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 4
-        span.d-block Aspectos del inventario
+        h5 Figura 4.
+        span Aspectos del inventario
       img.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 4. describe lo que se debe tener en cuenta antes, durante y después de un inventario, eso se indica luego de la imagen.")
 
     .d-flex.flex-wrap.d-lg-none.justify-content-center
       .col-12.col-md-6.col-lg-4.px-md-2.px-xl-3.d-flex.mb-4(data-aos="fade-right")
         .tarjeta-introduccion(style="background-color: #C4F2F1")
-          h5 ANTES
+          h5 Antes
           p.mb-0 Organizar la bodega.
             br              
             |Recopilar la información de todos los movimientos de entradas y salidas de los productos.
@@ -72,7 +72,7 @@
             |Identificar riesgos inherentes y de control.
       .col-12.col-md-6.col-lg-4.px-md-2.px-xl-3.d-flex.mb-4(data-aos="flip-up")
         .tarjeta-introduccion(style="background-color: #D8E4FD")
-          h5 DURANTE
+          h5 Durante
           p.mb-0 No deben existir movimientos del inventario.
             br          
             |Hacer corte del inventario, teniendo en cuenta todos los movimientos.
@@ -82,7 +82,7 @@
             |La persona que coordina el inventario debe verificar el proceso.
       .col-12.col-md-6.col-lg-4.px-md-2.px-xl-3.d-flex.mb-4(data-aos="fade-left")
         .tarjeta-introduccion(style="background-color: #C4F2F1")
-          h5 DESPUÉS
+          h5 Después
           p.mb-0 Se deben cruzar los resultados del conteo físico con la información que existe en el sistema para obtener faltantes o sobrantes.
             br            
             |Determinar las causas de los faltantes.
@@ -90,8 +90,7 @@
             |Elaboración del acta del inventario con todo el procedimiento del inventario.
     
     Separador 
-
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_2 2.2 Ejecución de inventarios físicos
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
@@ -112,58 +111,58 @@
       p.text-small(numero="7" titulo="Análisis de la información") Una vez terminado el conteo se realiza la verificación de los datos del conteo versus información previa de las existencias, detectando, en primera instancia, los posibles faltantes que se estén presentando para realizar una nueva verificación y encontrarlos, de lo contrario representan pérdidas que se puedan estar dando por errores en los procesos, por algún fraude, etc., es aquí donde la alta dirección debe tomar decisiones importantes sobre la gestión de los inventarios como cambio en algún procedimiento, implementación de herramientas tecnológicas, capacitación al personal, etc.
       p.text-small(numero="8" titulo="Acta final") Se debe elaborar un acta del inventario donde quede consignado todo el procedimiento del inventario, hora de inicio, hora fin, participantes, resultados del conteo, diferencias, observaciones, etc. 
 
-    p.mb-5.fw-bol.text-center Para tener una buena planificación en la realización de un inventario se debe tener respuesta a las siguientes preguntas:
+    p.mb-5.fw-bol.text-center(data-aos="fade-right") Para tener una buena planificación en la realización de un inventario se debe tener respuesta a las siguientes preguntas:
 
-    .container-100.py-5(
+    .container-100.py-4(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.png')})`}"
       style="background-repeat: no-repeat; background-position: center; background-size: contain"
     )
       .mx-auto.col-lg-8.col-xl-6
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 5
-          span.d-block Planificación inventario 
+          h5 Figura 5.
+          span Planificación inventario 
         img.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px;" data-aos="fade-left" alt="Figura 5. Describe preguntas y respuestas sobre la buena planificación, estas son: ¿Qué voy a inventariar? Respuesta: material prima, insumos, producto. ¿Dónde está lo que voy a inventariar? Respuesta: bodegas, almacenes, producción. ¿Qué recursos tengo? Respuesta: personas, herramientas, infraestructura. ¿Cómo lo voy a hacer? Respuesta: ruta, metodología.")
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_3 2.3 Control de pérdidas 
     
     p.mb-5(data-aos="fade-right") Las pérdidas en las existencias dentro de una empresa se pueden dar por diversas circunstancias: robos de personas externas, fraude del personal que labora para la entidad, vencimiento de productos perecederos, daño en la calidad de los productos, errores administrativos, etc., teniendo en cuenta que en cualquier caso que se presenten tendrán un impacto negativo en las finanzas de la empresa la alta dirección debe centrar sus esfuerzos en diseñar estrategias para controlar el riesgo que estas circunstancias ocurran.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto.mb-5
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
-          h5 ¿Cómo evitar las pérdidas?
-          p.mb-0.order-2.order-md-1.pe-md-4(data-aos="fade-right") Una organización puede implementar medidas que permitan minimizar el riesgo a que se presenten pérdidas en los inventarios, aunque no garantiza que no se presenten se tendrá un mayor control de las existencias.
+          h5(data-aos="fade-left") ¿Cómo evitar las pérdidas?
+          p.mb-0.order-2.order-md-1.pe-md-4(data-aos="fade-left") Una organización puede implementar medidas que permitan minimizar el riesgo a que se presenten pérdidas en los inventarios, aunque no garantiza que no se presenten se tendrá un mayor control de las existencias.
     
     .col-xl-10.mx-auto
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Tabla 1
-        span.d-block Ejemplos de indicadores
+        h5 Tabla 1.
+        span Ejemplos de indicadores
       .tabla-a.color-primario.mb-5(data-aos="fade-left")
         table.d-flex.flex-wrap
           thead.w-100
-            tr.d-flex(style="background-color: #E9F0FE")
+            tr.d-flex(style="background-color: #E9F0FE" data-aos="fade-right")
               th.col-12.py-4(colspan="2") Medidas de control
           tbody.w-100
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-4.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Robo de personas externas
               td.col-8
                 ul
-                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                  li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Instalación de sistemas de seguridad como cámaras de video.
-                  li.pb-2.mb-2(style="border-bottom-style: dashed")
+                  li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Contratación de personal de vigilancia.
                   li.pb-2.mb-2
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Implementación de sistemas de alarma que estén conectados con las autoridades.
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-4.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Robo de personas internas.
               td.col-8
@@ -192,7 +191,7 @@
                   li.pb-2.mb-2(style="border-bottom-style: dashed")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Colocar avisos donde se solicite a los clientes que exijan su factura.
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-4.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Vencimiento de productos perecederos.
               td.col-8
@@ -203,7 +202,7 @@
                   li.pb-2.mb-2(style="border-bottom-style: dashed")
                     i.fas.fa-angle-right.pe-2(style="color: #FE7062; font-size: 20px")
                     | Tener organizada la mercancía de tal forma que los productos próximos a vencer sean los que primero tengan salida.
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-4.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Errores administrativos.
               td.col-8
@@ -225,17 +224,15 @@
       img.col-md-5.col-lg-4.col-xl-3.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.col-xl-9.ps-md-4(data-aos="fade-left")
         p La falta de registros en los movimientos de los productos desde que ingresan hasta que son entregados a los clientes también maximizan las probabilidades de pérdidas, ya que no se cuenta con datos precisos de lo que se compra y sus movimientos dentro de la cadena de abastecimiento, permitiendo que la mercancía desaparezca no solo por fraude o robo, sino por desorganización en la gestión de los inventarios; además, las pérdidas se dan porque al no conocer el valor real de las existencias se puede pedir inventario en exceso o fallas por escasez de productos.
-
         p.mb-0 El éxito de toda empresa es analizar y saber con exactitud dónde, cómo y por qué se están presentando las pérdidas para aplicar estrategias que permitan actuar ante los diferentes riesgos que implica toda operación comercial, ya que estos pueden traer consecuencias negativas sobre la rentabilidad, la estabilidad operativa y hasta de imagen de las organizaciones.
 
     Separador 
-
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_4 2.4 Auditoría a las existencias
     
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color: #91B3FA")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-7.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-7.jpg')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 Una auditoria es un procedimiento que se realiza para revisar, analizar y evaluar cómo se está haciendo un determinado proceso, detectar posibles desviaciones o fallas y tomar las acciones correctivas, preventivas o de mejora necesarias para lograr el óptimo funcionamiento de la compañía.
@@ -283,7 +280,7 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_5 2.5 Indicadores de gestión aplicados a inventarios
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
@@ -297,20 +294,20 @@
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-md-5.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-9.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md-7.col-lg-8.ps-md-4
-        ul.lista-ul--separador(data-aos="fade-left")
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+        ul.lista-ul--separador
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Permitir a la alta gerencia analizar y evaluar el desempeño de la empresa frente a sus metas y objetivos.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Evaluar el grado de cumplimiento de cada área a sus objetivos.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Detectar posibles fallas o desviaciones en los procesos o procedimientos en el cumplimiento de las metas.
-          li.pb-2.mb-2(style="border-bottom-style: dashed")
+          li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Permitir conocer la eficiencia o ineficiencia del funcionamiento de la empresa y tomar decisiones con base en datos reales.
-          li.pb-2.mb-2
+          li.pb-2.mb-2(data-aos="fade-left")
             i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
             | Analizar situaciones de riesgo para la empresa y direccionar planes financieros.
 
@@ -322,8 +319,8 @@
     )
       .mx-auto.col-lg-10.col-xl-8.mb-5
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
-          h5 Figura 6
-          span.d-block Indicadores procesos 
+          h5 Figura 6.
+          span Indicadores procesos 
         img.d-none.d-lg-flex.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
         img.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema2/img-10_1.svg" style="max-width: 257px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
 
@@ -334,8 +331,8 @@
     )
       .col-xl-9.mx-auto
         .row.justify-content-center.mb-4
-          .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+          .col-lg-4.col-md-6.col-11.mb-4
+            .crd_hover_txt(data-aos="fade-right")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema2/tj-1.jpg" alt="Imagen decorativa Cumplimiento")
@@ -343,8 +340,8 @@
                 h4.mb-3.text-center Cumplimiento
                 p.mb-0 Mide el grado de cumplimiento con la finalización de una tarea o actividad, ejemplo: cumplimiento del plan de producción.
 
-          .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+          .col-lg-4.col-md-6.col-11.mb-4
+            .crd_hover_txt(data-aos="flip-up")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema2/tj-2.jpg" alt="Imagen decorativa Evaluación")
@@ -352,8 +349,8 @@
                 h4.mb-3.text-center Evaluación
                 p.mb-0 Están relacionados con el rendimiento que se tiene de una actividad o proceso. Ejemplo: evaluación en la gestión de los pedidos.
 
-          .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+          .col-lg-4.col-md-6.col-11.mb-4
+            .crd_hover_txt(data-aos="fade-left")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema2/tj-3.jpg" alt="Imagen decorativa Eficiencia")
@@ -361,8 +358,8 @@
                 h4.mb-3.text-center Eficiencia
                 p.mb-0 Mide la capacidad de llevar a cabo una actividad con el mínimo de recursos. Ejemplo: tiempo de fabricación de un producto, piezas / hora.
 
-          .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
-            .crd_hover_txt(data-aos="flip-left")
+          .col-lg-4.col-md-6.col-11.mb-4
+            .crd_hover_txt(data-aos="fade-right")
               .crd_hover_txt--img
                 figure
                   img(src="@/assets/curso/temas/tema2/tj-4.jpg" alt="Imagen decorativa Eficacia")
@@ -370,7 +367,7 @@
                 h4.mb-3.text-center Eficacia
                 p.mb-0 Están relacionados con la capacidad de acierto en la consecución de actividades. Ejemplo: pedidos entregados a tiempos y clientes satisfechos. 
 
-          .col-xl-4.col-lg-4.col-md-6.col-11.mb-4
+          .col-lg-4.col-md-6.col-11.mb-4
             .crd_hover_txt(data-aos="flip-left")
               .crd_hover_txt--img
                 figure
@@ -382,15 +379,18 @@
     p.text-center.fw-bold.mb-5(data-aos="fade-left") Algunos ejemplos de los indicadores que son usados en las organizaciones son los que se indican en la siguiente tabla.
 
     .col-xl-10.mx-auto
-      .tabla-a.color-primario.mb-5(data-aos="fade-right")
+      .tabla-a.color-primario.mb-5
+        .titulo-sexto.color-secundario(data-aos="fade-right")
+          h5 Tabla 2.
+          span Ejemplos de indicadores
         table.d-flex.flex-wrap
           thead.w-100
-            tr.d-flex(style="background-color: #E9F0FE")
+            tr.d-flex(style="background-color: #E9F0FE" data-aos="fade-right")
               th.col-2.py-4 Nombre
               th.col-5.py-4 Descripción
               th.col-5.py-4 Fórmula
           tbody.w-100
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-2.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Rotación de <em>stock</em> o de inventario
               td.col-5
@@ -398,30 +398,30 @@
               td.col-5
                 p.w-100 <b>Rotación de inventarios</b> = Ventas totales / stock promedio.
                 p.w-100.mb-0 <b>Stock promedio</b> = stock inicial + stock final / 2
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-2.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Pérdidas.
               td.col-5
                 p.w-100.mb-0 Es el indicador que más preocupa a la alta dirección de la organización, ya que pueden ser muy costosas para la empresa. Estas pérdidas se pueden dar por exceso de existencias, robo, vencimientos.
               td.col-5
                 p.w-100 Pérdidas = inventario total - ventas totales - inventario actual.
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-2.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Tasa de retorno.
               td.col-5
                 p.w-100.mb-0 Mide el porcentaje de devoluciones que tiene la empresa de los productos que ya fueron vendidos; este indicador permite determinar cuáles y cuántas referencias no están cumpliendo con las expectativas de los clientes.
               td.col-5
                 p.w-100 Tasa de retorno = (total de productos devueltos / total de productos vendidos) * 100.
-            tr.d-flex.col-12
+            tr.d-flex.col-12(data-aos="fade-right")
               td.col-2.d-flex.align-items-center
                 p.w-100.mb-0.fw-bold.text-center Pedidos entregados a tiempo.
               td.col-5
                 p.w-100.mb-0 Mide el nivel de cumplimiento en la entrega de los pedidos a los clientes.
               td.col-5
-                p.w-100 %pedidos entregado a tiempo = (# pedidos entregados a tiempo en un periodo X / # total de pedidos entregados en un periodo X) * 100.
+                p.w-100 % pedidos entregado a tiempo = (# pedidos entregados a tiempo en un periodo X / # total de pedidos entregados en un periodo X) * 100.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
