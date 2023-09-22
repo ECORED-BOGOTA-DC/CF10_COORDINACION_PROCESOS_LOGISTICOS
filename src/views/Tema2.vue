@@ -55,7 +55,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 4.
         span Aspectos del inventario
-      img.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 4. describe lo que se debe tener en cuenta antes, durante y después de un inventario, eso se indica luego de la imagen.")
+      img.mx-auto(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Imagen que describe lo que se debe tener en cuenta antes, durante y después de un inventario, eso se indica luego de la imagen.")
 
     .d-flex.flex-wrap.d-lg-none.justify-content-center
       .col-12.col-md-6.col-lg-4.px-md-2.px-xl-3.d-flex.mb-4(data-aos="fade-right")
@@ -121,7 +121,7 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 5.
           span Planificación inventario 
-        img.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px;" data-aos="fade-left" alt="Figura 5. Describe preguntas y respuestas sobre la buena planificación, estas son: ¿Qué voy a inventariar? Respuesta: material prima, insumos, producto. ¿Dónde está lo que voy a inventariar? Respuesta: bodegas, almacenes, producción. ¿Qué recursos tengo? Respuesta: personas, herramientas, infraestructura. ¿Cómo lo voy a hacer? Respuesta: ruta, metodología.")
+        img.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 610px;" data-aos="fade-left" alt="Imagen que describe preguntas y respuestas sobre la buena planificación, estas son:<br>¿Qué voy a inventariar?<br>Respuesta: material prima, insumos, producto.<br>¿Dónde está lo que voy a inventariar?<br>Respuesta: bodegas, almacenes, producción.<br>¿Qué recursos tengo?<br>Respuesta: personas, herramientas, infraestructura.<br>¿Cómo lo voy a hacer?<br>Respuesta: ruta, metodología.")
 
     Separador 
 
@@ -142,7 +142,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Tabla 1.
         span Ejemplos de indicadores
-      .tabla-a.color-primario.mb-5(data-aos="fade-left")
+      .tabla-a.color-primario.mb-5(data-aos="fade-left" alt="Tabla que describe las medidas de control relacionadas con las pérdidas.")
         table.d-flex.flex-wrap
           thead.w-100
             tr.d-flex(style="background-color: #E9F0FE" data-aos="fade-right")
@@ -321,8 +321,8 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 6.
           span Indicadores procesos 
-        img.d-none.d-lg-flex.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
-        img.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema2/img-10_1.svg" style="max-width: 257px;" data-aos="fade-left" alt="Figura 6. Describe los indicadores de proceso que son: Medibles: deben ser cuantificables y significativos. Entendibles: de fácil comprensión e interpretación. Controlables: se pueden controlar.")
+        img.d-none.d-lg-flex.mx-auto(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 1040px;" data-aos="fade-left" alt="Imagen que describe los indicadores de proceso que son:<br>Medibles: deben ser cuantificables y significativos.<br>Entendibles: de fácil comprensión e interpretación.<br>Controlables: se pueden controlar.")
+        img.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema2/img-10_1.svg" style="max-width: 257px;" data-aos="fade-left" alt="Imagen que describe los indicadores de proceso que son:<br>Medibles: deben ser cuantificables y significativos.<br>Entendibles: de fácil comprensión e interpretación.<br>Controlables: se pueden controlar.")
 
     p.col-xl-10.mx-auto.mb-5(data-aos="fade-right") Para elegir los indicadores que más se ajusten a las necesidades de la empresa, es necesario conocer el rendimiento interno, es decir, qué tan eficientes son los procesos y qué costos tienen, así como saber el rendimiento externo y establecer si los clientes están satisfechos; para ello existen indicadores de: 
 
@@ -383,7 +383,7 @@
         .titulo-sexto.color-secundario(data-aos="fade-right")
           h5 Tabla 2.
           span Ejemplos de indicadores
-        table.d-flex.flex-wrap
+        table.d-flex.flex-wrap(alt="Tabla que relaciona algunos ejemplos de indicadores.")
           thead.w-100
             tr.d-flex(style="background-color: #E9F0FE" data-aos="fade-right")
               th.col-2.py-4 Nombre

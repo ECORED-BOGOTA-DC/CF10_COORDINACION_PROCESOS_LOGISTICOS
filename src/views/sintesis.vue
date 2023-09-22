@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis resume todos los temas abordados dentro de este componente formativo como es: el control de los inventarios y su implementación, esto con el fin de que la organización tenga pleno conocimiento de los bienes y productos que posee y mantener un seguimiento de sus existencias.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis que resume todos los temas abordados dentro de este componente formativo como es: el control de los inventarios y su implementación, esto con el fin de que la organización tenga pleno conocimiento de los bienes y productos que posee y mantener un seguimiento de sus existencias.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

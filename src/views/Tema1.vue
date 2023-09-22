@@ -118,7 +118,7 @@
     
     p.mb-5(data-aos="fade-right") La administración de inventarios se basa en políticas que permitan decidir cuándo y cuánto se debe reabastecer para mantener el material disponible, además, se debe contar con información precisa de las existencias disponibles en bodega, la cantidad de producto que está pendiente por llegar o en tránsito, para esto requiere de información precisa para tomar buenas decisiones, la cual se centra en cuatro aspectos básicos:
 
-    img.mx-auto.mb-5.col-lg-10.col-xl-8(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 811px;" data-aos="fade-left" alt="Imagen que indica los cuatro pilares en la administración de inventarios que son: 1. Cantidad de productos en producción. 2. Tiempo de producción y reabastecimiento. 3. Artículos con mayor demanda o que impliquen mayor tiempo de reabastecimiento. 4. Variaciones en los costos de los artículos por inventario.")
+    img.mx-auto.mb-5.col-lg-10.col-xl-8(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 811px;" data-aos="fade-left" alt="Imagen que indica los cuatro pilares en la administración de inventarios que son:<br>1. Cantidad de productos en producción.<br>2. Tiempo de producción y reabastecimiento.<br>3. Artículos con mayor demanda o que impliquen mayor tiempo de reabastecimiento.<br>4. Variaciones en los costos de los artículos por inventario.")
 
     p.mb-5(data-aos="fade-right") Para tener una correcta gestión de los inventarios se deben analizar las principales variables que afectan su operación como lo son sus entradas y salidas, y los procesos que pueden presentar múltiples desviaciones que requieren ser tenidas en cuenta para su control conforme se muestra en la figura 1.
 
@@ -126,7 +126,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 1.
         span Control inventarios
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 823px;" data-aos="fade-left" alt="Figura 1. Muestra el mapa conceptual de nomenclatura que contiene: Entradas como la recepción de compras, la devolución de clientes y la recepción de traslados luego viene el almacén y luego las salidas que son las ventas y las devoluciones proveedores y en la franja baja viene las áreas de apoyo que son las compras, producción, comercial, logística y financiera.")
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-7.svg" style="max-width: 823px;" data-aos="fade-left" alt="Imagen que muestra el mapa conceptual de nomenclatura que contiene: Entradas como la recepción de compras, la devolución de clientes y la recepción de traslados luego viene el almacén y luego las salidas que son las ventas y las devoluciones proveedores y en la franja baja viene las áreas de apoyo que son las compras, producción, comercial, logística y financiera.")
     Separador
 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -231,7 +231,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 2.
         span Proceso bienes
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 2. Muestra el proceso de bienes que es en secuencia el siguiente: 1. recepción materias primas 2. Almacenamiento materia prima. 3. Recepción producción. 4. Productos en proceso. 5. Recepción bodega producto. 6. Almacenamiento productos terminados. 7. Venta 8. Distribución y entrega de productos terminados.")
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 822px;" data-aos="fade-left" alt="Imagen que muestra el proceso de bienes que es en secuencia el siguiente:<br>1. Recepción materias primas<br>2. Almacenamiento materia prima.<br>3. Recepción producción.<br>4. Productos en proceso.<br>5. Recepción bodega producto.<br>6. Almacenamiento productos terminados.<br>7. Venta<br>8. Distribución y entrega de productos terminados.")
     
     Separador
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -245,7 +245,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 3.
         span MRP
-      img.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 822px;" data-aos="fade-left" alt="Figura 3. Describe lo que se denomina MRP que es la planificación de las necesidades y viene en el centro lo que se debe producir a mano izquierda el interrogante de cuanto? y a su mano derecha cuando? y al final la pregunta de ¿que se necesita para producir?")
+      img.mx-auto(src="@/assets/curso/temas/tema1/img-17.svg" style="max-width: 822px;" data-aos="fade-left" alt="Imagen que describe lo que se denomina MRP que es la planificación de las necesidades y viene en el centro lo que se debe producir a mano izquierda el interrogante de cuanto? y a su mano derecha cuando? y al final la pregunta de ¿que se necesita para producir?")
 
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E9F0FE")
       p.mb-0 El sistema MRP (MRP proviene de la traducción del inglés de planeación de requerimiento de materiales) previene fallas de aprovisionamiento de materiales, pues permite programar y planear las necesidades de reabastecimiento de acuerdo con el programa de producción que debe contener las fechas y contenidos a fabricar, logrando la articulación de todas las áreas de la empresa, producción, compras, financiera, etc., para dar cumplimiento al proceso de fabricación y garantizando las existencias de una fase a otra.
