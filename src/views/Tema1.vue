@@ -199,7 +199,7 @@
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_4 1.4 El inventario y otras áreas de control 
     
-    p.mb-5(data-aos="fade-right") Los inventarios son fundamentales en toda la cadena de abastecimiento, pero para que se dé una buena gestión debe existir una buena comunicación entre todas las áreas ya que de alguna manera juegan un papel importante en el proceso, desde que llegan a la bodega de materias primas hasta la distribución final al cliente como lo puede ver en el siguiente recurso:
+    p.mb-5(data-aos="fade-right") Los inventarios son fundamentales en toda la cadena de abastecimiento, pero para que se dé una buena gestión debe existir una buena comunicación entre todas las áreas, ya que de alguna manera juegan un papel importante en el proceso, desde que llegan a la bodega de materias primas hasta la distribución final al cliente como lo puede ver en el siguiente recurso:
 
     .d-flex.flex-wrap.mb-5.mb-lg-4
       TabsA.color-acento-contenido.col-lg-8.pe-lg-4.order-2.order-lg-1(data-aos="fade-right")
@@ -330,7 +330,7 @@
       img.col-lg-3.mx-auto.mb-4.mb-lg-auto.order-1.order-lg-2(src="@/assets/curso/temas/tema1/img-24.svg" style="max-width: 295px;" data-aos="fade-left" alt="Imagen decorativa")
     
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-left" style="background-color: #E9F0FE")
-      p.mb-0 La implementación de un <em>software</em> para el control de los inventarios permitirá a las organizaciones optimizar los recursos ya que contará con la información de las existencias detalladas y actualizadas, con su seguimiento rutinario, detectando a tiempo las necesidades de reabastecimiento para tener una planeación eficaz del trabajo, además, es una herramienta importante en las decisiones de la alta gerencia. 
+      p.mb-0 La implementación de un <em>software</em> para el control de los inventarios permitirá a las organizaciones optimizar los recursos, ya que contará con la información de las existencias detalladas y actualizadas, con su seguimiento rutinario, detectando a tiempo las necesidades de reabastecimiento para tener una planeación eficaz del trabajo, además, es una herramienta importante en las decisiones de la alta gerencia. 
     
     .d-flex.flex-wrap.mb-5.mb-lg-4
       img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-25.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
@@ -361,7 +361,7 @@
         img.mx-auto(src='@/assets/curso/temas/tema1/img-5.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
-          p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los sistemas de información permiten optimizar las actividades de control de inventarios ya que se tienen datos precisos, reales y actualizados, disminuyendo las operaciones manuales y la probabilidad de que ocurran errores.
+          p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los sistemas de información permiten optimizar las actividades de control de inventarios, ya que se tienen datos precisos, reales y actualizados, disminuyendo las operaciones manuales y la probabilidad de que ocurran errores.
           img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 120px;" data-aos="fade-left" alt="Imagen decorativa")
 
     Separador
@@ -405,9 +405,9 @@
       img.col-lg-4.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema1/img-28.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
         LineaTiempoD.color-secundario(data-aos="fade-left")
-          p.text-small(numero="1" titulo="<em>Software</em> de alerta de <em>restock</em>") Cuando se alcanzan niveles determinados de stock, este sistema de información avisa el momento en el que se debe reabastecer algunos productos, teniendo en cuenta información como fechas de vencimiento, ventas, ofertas, etc.
+          p.text-small(numero="1" titulo="<em>Software</em> de alerta de <em>restock</em>") Cuando se alcanzan niveles determinados de <i>stock</i>, este sistema de información avisa el momento en el que se debe reabastecer algunos productos, teniendo en cuenta información como fechas de vencimiento, ventas, ofertas, etc.
           p.text-small(numero="2" titulo="<em>Software</em> de reporte de inventario") Este <em>software</em> permite consolidar toda la información de los inventarios generando informes de ventas, compras, pérdidas, etc. Además, permite determinar la cantidad óptima de productos.
-          p.text-small(numero="3" titulo="Códigos de barra") Es una herramienta bastante utilizada hoy en día ya que permite la recolección de información a través de los códigos de barra disminuyendo así la probabilidad de errores manuales de registro, permitiendo tener información con mayor precisión.
+          p.text-small(numero="3" titulo="Códigos de barra") Es una herramienta bastante utilizada hoy en día, ya que permite la recolección de información a través de los códigos de barra disminuyendo así la probabilidad de errores manuales de registro, permitiendo tener información con mayor precisión.
           p.text-small(numero="4" titulo="<em>Dashboards</em> (tableros)") Muestra gráficos con datos en una pantalla, permite la categorización de la información de acuerdo a las necesidades de la organización, como por ejemplo las ventas del mes, el nivel de inventario por área, etc. 
           p.text-small(numero="5" titulo="NCR <em>Counterpoint</em>") Este <em>software</em> mantiene la información alojada en la nube y entre las funciones que se pueden ejecutar automatizadas están las órdenes de compra, pagos, etc.
           

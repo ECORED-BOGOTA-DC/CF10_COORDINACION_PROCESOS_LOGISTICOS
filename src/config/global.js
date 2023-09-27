@@ -76,7 +76,7 @@ export default {
           {
             numero: '1.7',
             titulo:
-              'Importancia de los sistemas de información (software) para el control de inventarios',
+              'Importancia de los sistemas de información (<i>software</i>) para el control de inventarios',
             hash: 't_1_7',
           },
           {
