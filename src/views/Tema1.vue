@@ -314,9 +314,18 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Las empresas deben conocer el valor de su inventario, pues representan dinero inmovilizado que se debe contabilizar, además, determinar sus costos de operación, el valor de sus productos terminados y el precio de venta al público, ya que todos estos valores hacen parte del balance general y el estado de resultados de la empresa. 
   
-    p.text-center.mb-5.fw-bold(data-aos="fade-right") Los métodos de valoración permiten determinar el valor de las unidades que están almacenadas, entre los que podemos encontrar: 
+    p.text-justify.fw-bold(data-aos="fade-right") Los métodos de valoración permiten determinar el valor de las unidades que están almacenadas, entre los que podemos encontrar: 
 
-    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema1/img-23.svg" data-aos="fade-left" alt="Imagen decorativa")
+    ul.lista-ul--separador
+      li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+        i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
+        p.mb-0  <b>Método 1.</b> FIFO: <i>First-in, First-out</i> (Primeros en Entrar, Primeros en Salir - PEPS) significa que el primer producto que se adquiere o que llega es el primero en salir o en vender, es decir, primero se van vendiendo las unidades de mayor antigüedad.
+      li.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+        i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
+        p.mb-0 <b>Método 2.</b> LIFO: <i>Last-in, First-out</i> (Últimos en Entrar, Primeros en Salir - UEPS) significa lo contrario al método PEPS, este método plantea que se van vendiendo las últimas unidades compradas y debe tener especial atención, ya que si una empresa decide llevarlo a cabo podría quedarse con inventario obsoleto a sujeto a daños.
+      li.pb-2.mb-2(data-aos="fade-right")
+        i.fas.fa-angle-right(style="color: #FE7062; font-size: 20px")
+        p.mb-0 <b>Método 3.</b> Coste promedio ponderado: mediante este método se establece una media del coste de las unidades, es decir, dividimos el costo de los artículos puestos a la venta por el número de unidades que tenemos en existencia.
 
     Separador
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
